@@ -1,0 +1,37 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-3">
+      <ul class="nav nav-pills nav-stacked ">
+          <li><p>Choose team:</p></li>
+          <li><a href="#" (click)="chooseTeam(1)">Trainee</a></li>
+          <li><a href="#" (click)="chooseTeam(2)">Junior</a></li>
+          <li><a href="#" (click)="chooseTeam(3)">Middle</a></li>
+          <li><a href="#" (click)="chooseTeam(4)">Stepan Suvorov</a></li>
+      </ul>
+      <br>
+      <a href="#" class="btn btn-info" (click)="isSelected=false">Hide table</a>
+   </div>
+
+   <div class="col-md-9">
+    <table class="table table-striped table-hover" *ngIf="isSelected">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Avatar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info" *ngFor="let user of team">
+                  <td>{{user.name}}</td>
+                  <td>{{user.surname}}</td>
+                  <td><img [src]="user.avatar"/></td>
+              </tr>
+        </tbody>
+      </table> 
+    </div>
+
+  </div>
+  
+</div>
