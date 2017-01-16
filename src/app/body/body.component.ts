@@ -15,22 +15,22 @@ private getJunior() {
       {
         name: 'Natali',
         surname: 'Uzva',
-        avatar: '../assets/img/nataly.jpg'
+        avatar: 'assets/img/nataly.jpg'
       },
       {
         name: 'Alla',
         surname: 'Logozinskaya',
-        avatar: '../assets/img/alla.jpg'
+        avatar: 'assets/img/alla.jpg'
       },
       {
         name: 'Yaroslav',
         surname: 'Polubiedov',
-        avatar: '../assets/img/yaroslav.jpg'
+        avatar: 'assets/img/yaroslav.jpg'
       },
       {
         name: 'Alex',
         surname: 'Komendantov',
-        avatar: '../assets/img/alexJunior.jpg'
+        avatar: 'assets/img/alexJunior.jpg'
       }
     ];
   }
@@ -40,37 +40,37 @@ private getJunior() {
       {
         name: 'Dasha',
         surname: 'Kashaeva',
-        avatar: '../assets/img/dasha.jpg'
+        avatar: 'assets/img/dasha.jpg'
       },
       {
         name: 'Alex',
         surname: 'Popov',
-        avatar: '../assets/img/alex.jpg'
+        avatar: 'assets/img/alex.jpg'
       },
       {
         name: 'Igor',
         surname: 'Mitropan',
-        avatar: '../assets/img/igor.jpg'
+        avatar: 'assets/img/igor.jpg'
       },
       {
         name: 'Andrey',
         surname: 'Suprun',
-        avatar: '../assets/img/andrey.jpg'
+        avatar: 'assets/img/andrey.jpg'
       },
       {
         name: 'Evgen',
         surname: 'Krasnikov',
-        avatar: '../assets/img/evgen.jpg'
+        avatar: 'assets/img/evgen.jpg'
       },
       {
         name: 'Alex',
         surname: 'Shakura',
-        avatar: '../assets/img/alex2.jpg'
+        avatar: 'assets/img/alex2.jpg'
       },
       {
         name: 'Vitaliy',
         surname: 'Makogon',
-        avatar: '../assets/img/evgen.jpg'
+        avatar: 'assets/img/evgen.jpg'
       }
     ];
   }
@@ -80,12 +80,12 @@ private getJunior() {
       {
         name: 'Pasha',
         surname: 'Lebedinsky',
-        avatar: '../assets/img/pasha.png'
+        avatar: 'assets/img/pasha.png'
       },
       {
         name: 'Sergey',
         surname: 'Pereversiev',
-        avatar: '../assets/img/sergey.jpg'
+        avatar: 'assets/img/sergey.jpg'
       }
     ];
   }
@@ -95,7 +95,7 @@ private getJunior() {
       {
         name: 'Stepan',
         surname: 'Suvorov',
-        avatar: '../assets/img/stepan.jpg'
+        avatar: 'assets/img/stepan.jpg'
       }
     ];
   }
